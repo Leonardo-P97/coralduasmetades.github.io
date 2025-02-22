@@ -7,7 +7,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
-    /* Paleta de cores em tons de marrom e bege */
     :root {
       --marrom-escuro: #5A3E36;
       --marrom-medio: #8C6A5D;
@@ -132,7 +131,7 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       -webkit-backface-visibility: hidden;
       -moz-osx-font-smoothing: grayscale;
-      image-rendering: -webkit-optimize-contrast;
+      image-rendering: auto;
     }
 
     .galeria img:hover {
@@ -174,6 +173,8 @@
     .contato a img {
       width: 28px;
       height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
       filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
     }
 
@@ -188,7 +189,6 @@
   </style>
 </head>
 <body>
-
   <header>
     <h1>Duas Metades</h1>
     <p>Amor em forma de música!</p>
@@ -219,10 +219,10 @@
     <h2>Entre em Contato</h2>
     <div class="contato-links">
       <a href="https://wa.me/5518997577449" target="_blank" title="WhatsApp">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+        <img src="images/WPP.jpg" alt="WhatsApp">
       </a>
       <a href="https://www.instagram.com/duas_.metades" target="_blank" title="Instagram">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+        <img src="images/INTA.png" alt="Instagram">
       </a>
     </div>
   </section>
@@ -230,6 +230,5 @@
   <footer>
     &copy; 2025 Duas Metades | Músicos para Casamento - Todos os direitos reservados
   </footer>
-
 </body>
 </html>
